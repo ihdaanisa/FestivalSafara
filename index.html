@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Website</title>
+    <link href="images/logo.png" rel="icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+        <a class="navbar-brand ">Festival Event Safara</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+ <!-- Home -->
+ <section id="home" class="bg-primary text-black text-center py-5 d-flex align-items-center min-vh-100">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to the Safara Festival!</h1>
+        <p class="lead mb-4">Join us for a day full of fun, music, food, and more.</p>
+        <a href="#about" class="btn btn-outline-black text-black btn-lg mt-3">Learn More</a>
+    </div>
+</section>
+
+ <!-- About -->
+ <section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="text-primary" >About the Festival</h2>
+                <p>This festival brings together people from all walks of life to celebrate culture, music, and the arts. Enjoy a day filled with live performances, delicious food, and interactive activities for the whole family.</p>
+                <p>Don't miss out on the chance to experience something truly special!</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/lucu.gif" class="img-fluid" alt="Festival Image" style="max-width: 100%; height: auto; max-height: 400px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Events -->
+<section id="schedule" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 text-primary">Event Schedule</h2>
+        <div class="row">
+        
+            <!-- Music Card -->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm border border-primary rounded">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="fas fa-music fa-3x text-primary"></i> <!-- Icon -->
+                        </div>
+                        <h5 class="card-title">Music Concert</h5>
+                        <p class="card-text">Enjoy live performances by top bands and artists from around the world.</p>
+                        <p class="text-muted"><i class="far fa-clock"></i> 10:00 AM - 12:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Food Tasting Card -->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm border border-primary rounded">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="fas fa-utensils fa-3x text-primary"></i> <!-- Icon -->
+                        </div>
+                        <h5 class="card-title">Food Tasting</h5>
+                        <p class="card-text">Sample a variety of delicious dishes from local and international cuisines.</p>
+                        <p class="text-muted"><i class="far fa-clock"></i> 12:00 PM - 2:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Art Card -->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm border border-primary rounded">
+                    <div class="card-body text-center">
+                        <div class="mb-3">
+                            <i class="fas fa-paint-brush fa-3x text-primary"></i> <!-- Icon -->
+                        </div>
+                        <h5 class="card-title">Art Exhibition</h5>
+                        <p class="card-text">Explore the creative works of talented artists from around the world.</p>
+                        <p class="text-muted"><i class="far fa-clock"></i> 2:00 PM - 4:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Gallery -->
+<section id="gallery" class="py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <h2 class="text-center mb-4 text-primary">Gallery</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 animate__animated animate__fadeInUp">
+                    <img src="images/event3.jpg" class="card-img-top gallery-img border border-primary rounded-3 p-1" alt="Gallery Image">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 animate__animated animate__fadeInUp animate__delay-1s">
+                    <img src="images/event2.jpeg" class="card-img-top gallery-img border border-primary rounded-3 p-1" alt="Gallery Image">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 animate__animated animate__fadeInUp animate__delay-2s">
+                    <img src="images/food-tasting-design-template-240eedbac1862dd7a51449cc5d9c7f1d_screen.jpg" class="card-img-top gallery-img border border-primary rounded-3 p-1" alt="Gallery Image">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 animate__animated animate__fadeInUp animate__delay-3s">
+                    <img src="images/food tsting.jpg" class="card-img-top gallery-img border border-primary rounded-3 p-1" alt="Gallery Image">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 animate__animated animate__fadeInUp animate__delay-4s">
+                    <img src="images/art2.jpg" class="card-img-top gallery-img border border-primary rounded-3 p-1" alt="Gallery Image">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 animate__animated animate__fadeInUp animate__delay-5s">
+                    <img src="images/art3.jpg" class="card-img-top gallery-img border border-primary rounded-3 p-1" alt="Gallery Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Contact -->
+<section id="contact" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 text-primary">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <!-- Card Wrapper for Form -->
+                <div class="card border border-primary shadow-sm">
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <p>&copy; 2024 Festival Safara.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
